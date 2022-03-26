@@ -7,7 +7,14 @@ import Cards from './Cards/card';
 
 function App() {
   const [books,setBooks] = useState([]);
-  console.log(books);
+  const [cart,setCarts] = useState([]);
+  console.log(cart);
+  const cartButton =(book) => {
+    const newCart = [...cart,book];
+    
+    setCarts(newCart);
+}
+ 
   useEffect(() => {
     fetch ("data.json")
     .then(res => res.json())
@@ -16,12 +23,15 @@ function App() {
   return (
     <div className="App">
   
-      <Book></Book>
-     
+      <Book></Book> 
       {
-     books.map((book )=> (
+        cart.map((item) => (
+          <h1 key={item.id}>{item.name}</h1>
+        ))};
+        {
+     books.map((book ) => (
       <div className='card-container'>
-        <Cards key={book.id} bookData={book}> 
+        <Cards key={book.id} bookData={book} cartButton={cartButton}> 
         </Cards>
       </div> ))
    }

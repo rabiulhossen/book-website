@@ -4,9 +4,7 @@ const Book = () => {
     return (
         <div>
             <h1 className="big">BUILD YOUR FUTURE WITH BOOK</h1>
-            <div>
-                <h1></h1>
-            </div>
+          
         </div>
     );
 };
