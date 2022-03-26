@@ -8,14 +8,17 @@ function App() {
   const [books,setBooks] = useState([]);
   console.log(books);
   useEffect(() => {
-    fetch ("../public/data.json")
+    fetch ("data.json")
     .then(res => res.json())
     .then((data) => setBooks(data))
   },[])
   return (
     <div className="App">
-   
+  
       <Book></Book>
+      {
+     books.map((book )=> <h1>{book.name}</h1>)
+   }
     </div>
   );
 }
