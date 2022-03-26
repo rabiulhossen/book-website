@@ -4,6 +4,20 @@ import Book from './Books/Book';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import Cards from './Cards/card';
+import Modal from 'react-modal';
+
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+  },
+};
+Modal.setAppElement('#root');
+
 
 function App() {
   const [books,setBooks] = useState([]);

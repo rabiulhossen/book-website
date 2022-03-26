@@ -8,7 +8,7 @@ const Cards = ({bookData,cartButton}) => {
     // console.log(name);
     
     return (
-        <div>
+        <div className='first-div'>
           <div className='img-container'> <img src={image} alt="" /></div>
             <h1>{name}</h1>
             <h2>Price:{price}</h2>
