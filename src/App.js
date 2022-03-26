@@ -3,6 +3,7 @@ import './App.css';
 import Book from './Books/Book';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import Cards from './Cards/card';
 
 function App() {
   const [books,setBooks] = useState([]);
@@ -16,10 +17,16 @@ function App() {
     <div className="App">
   
       <Book></Book>
+     
       {
-     books.map((book )=> <h1>{book.name}</h1>)
+     books.map((book )=> (
+      <div className='card-container'>
+        <Cards key={book.id} bookData={book}> 
+        </Cards>
+      </div> ))
    }
     </div>
+   
   );
 }
 
