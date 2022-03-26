@@ -2,55 +2,56 @@
     {
       "id": "623ec5ce3b7a5549e7e1e326",
       "price": "$20",
-      "image": "http://placehold.it/32x32",
-      "name": "Elvia May"
+      "image": "https://i.ibb.co/Rz4M9k9/book-1.jpg",
+      "name": "ZERO TO ONE"
     },
     {
       "id": "623ec5ce7d2aa694afd5819d",
       "price": "$15",
-      "image": "http://placehold.it/32x32",
-      "name": "Nanette Holloway"
+      "image": "https://i.ibb.co/xD8fXY7/book-2.jpg",
+      "name": "TIME MANAGEMENT"
     },
     {
       "id": "623ec5cef2fca0ff96bd05cd",
       "price": "$12",
-      "image": "http://placehold.it/32x32",
-      "name": "Courtney Goff"
+      "image": "https://i.ibb.co/x2nQv75/book-3.jpg",
+      "name": "THE 7 HABIT OF HIGHLY EFFECTIVE PEOPLE"
     },
     {
       "id": "623ec5ceef06700c15ce577d",
       "price": "$10",
-      "image": "http://placehold.it/32x32",
-      "name": "Hays Barton"
+      "image":"https://i.ibb.co/C07c2cX/book-5.jpg",
+      "name": "SHOW YOUR WORK"
+      
     },
     {
       "id": "623ec5cec1643d3b01565432",
       "price": "$15",
-      "image": "http://placehold.it/32x32",
-      "name": "Candice Pope"
+      "image": "https://i.ibb.co/yNbCQGF/book-12.jpg",
+      "name": "RICH DAD POOR DAD"
     },
     {
       "id": "623ec5cec1643d3b01565432",
       "price": "$15",
-      "image": "http://placehold.it/32x32",
-      "name": "Candice Pope"
+      "image": "https://i.ibb.co/qg32FHv/book-9.jpg",
+      "name": "LEARN JAVASCRIPT QUICKLY"
     },
     {
       "id": "623ec5cec1643d3b01565432",
       "price": "$25",
-      "image": "http://placehold.it/32x32",
-      "name": "Candice Pope"
+      "image": "https://i.ibb.co/yFVMqyd/book-8.jpg",
+      "name": "THE PRODUCTIVE MUSLIM"
     },
     {
       "id": "623ec5cec1643d3b01565432",
       "price": "$18",
-      "image": "http://placehold.it/32x32",
-      "name": "Candice Pope"
+      "image": "https://i.ibb.co/HVTgjyL/book-7.jpg",
+      "name": "PYTHON PROGRAMMING"
     },
     {
       "id": "623ec5cefd0d2e4bce461295",
       "price": "$22",
-      "image": "http://placehold.it/32x32",
-      "name": "Josephine Walter"
+      "image": "https://i.ibb.co/ZzskfNn/book-6.jpg",
+      "name": "MACHINE LEARNING"
     }
   ]
