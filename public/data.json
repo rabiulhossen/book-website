@@ -8,8 +8,8 @@
     {
       "id": "623ec5ce7d2aa694afd5819d",
       "price": "$15",
-      "image": "https://i.ibb.co/xD8fXY7/book-2.jpg",
-      "name": "TIME MANAGEMENT"
+      "image": "https://i.ibb.co/8P5Dd8k/start.jpg",
+      "name": "START WITH WHY"
     },
     {
       "id": "623ec5cef2fca0ff96bd05cd",
@@ -20,11 +20,11 @@
     {
       "id": "623ec5ceef06700c15ce577d",
       "price": "$10",
-      "image":"https://i.ibb.co/C07c2cX/book-5.jpg",
-      "name": "SHOW YOUR WORK"
+      "image":"https://i.ibb.co/T13vBCF/lean.jpg",
+      "name": "THE LEAN STARTUP"
     },
     {
-      "id": "623ec5cec1643d3b01565452j",
+      "id": "623ec5cec1643d3b015654852j",
       "price": "$15",
       "image": "https://i.ibb.co/yNbCQGF/book-12.jpg",
       "name": "RICH DAD POOR DAD"
